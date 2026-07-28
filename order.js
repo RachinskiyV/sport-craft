@@ -4,6 +4,7 @@ var knopkaNazadCorrect = document.querySelector('.form-box .btn-submit');
 
 if (nashaForma) {
     nashaForma.addEventListener('submit', function(event) {
+         gtag('event', 'btn_accept');
         event.preventDefault(); 
         
         var polePhone = document.getElementById('user-phone');
